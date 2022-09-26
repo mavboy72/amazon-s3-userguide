@@ -4,7 +4,7 @@ You can access the objects in an Amazon S3 bucket with an *access point* using t
 
 Access points have Amazon Resource Names \(ARNs\)\. Access point ARNs are similar to bucket ARNs, but they are explicitly typed and encode the access point's Region and the AWS account ID of the access point's owner\. For more information about ARNs, see [Amazon Resource Names \(ARNs\)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) in the *AWS General Reference*\.
 
-Access point ARNs use the format `arn:aws:s3:region:account-id:accesspoint/resource`\. For example:
+Access point ARNs use the format `arn:aws:s3:region:account-id:accesspoint/access-point-name`\. For example:
 + **arn:aws:s3:us\-west\-2:123456789012:accesspoint/test** represents the access point named `test`, owned by account `123456789012` in Region `us-west-2`\.
 + **arn:aws:s3:us\-west\-2:123456789012:accesspoint/\*** represents all access points under account `123456789012` in Region `us-west-2`\.
 
